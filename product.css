@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.product-page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+
+
+}
+.product-page .left-div{
+    position: relative;
+    width: 30%;
+    height: 100vh;
+}
+.product-page .left-div .mainimage img {
+    width: 100%;
+    margin: 5rem 0rem 0rem 8rem;
+    height: 32rem;
+    
+}
+
+.left-div .small-image{
+    margin-left: 8rem;   
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap: 2rem;
+    
+}
+.left-div .small-image .sub-image{
+    position: relative;
+    /* background: rebeccapurple; */
+    width:10rem;
+    height: 10rem;
+    margin-top: 1rem;
+}
+.left-div .small-image .sub-image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: relative;  
+}
+
+.product-page .right-div{
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    left: 7%;
+}
+.pro-content{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    top: 10%;
+    left: 3%;
+    font-size: 2.4rem;
+    overflow: hidden;
+
+}
+.pro-content select {
+     height: 3rem;
+     width: 16rem;
+     border-radius: 1rem;
+     padding-left: 1rem;
+     margin-top: 1rem;
+     cursor: pointer;
+     
+}
+.pro-content input{
+    height: 3.2rem;
+    width: 5rem;
+    margin-bottom: 26px;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+.pro-content .Addcart{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media screen and (max-width:425px) {
+    .pro-content{
+        position: absolute;
+        width: 85%;
+        height: 100%;
+        top: 10%;
+        left: 15%;
+        font-size: 0.9rem;
+        overflow: hidden;
+    
+    }
+    .product-page .left-div .mainimage img {     
+       margin-left: 3rem;
+       
+    }
+    .left-div .small-image .sub-image img{
+        position: absolute;
+        width: 125%;
+        height: 30%;
+        position: relative;  
+    }
+    .left-div .small-image{
+        margin-left: 3rem;   
+        width: 100%;
+        height: 20%;
+        display: flex;
+        gap: 2rem;
+        
+    }
+  
+
+}
